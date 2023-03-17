@@ -311,6 +311,7 @@
 
 
 @media (max-width: 880px) {
+    
     .hero nav .logo {
         font-size: 20px;
     }
@@ -320,17 +321,45 @@
     }
     
     .hero .content .div-text h4{
+        display: none;
+    }
+    
+    .hero .content .div-text p {
         font-size: 14px;
     }
     
+    .hero .content .div-text .btn{
+        padding: 5px 5px;
+        font-size: 12px;
+    }
+
+    .hero .content .div-img {
+        width: 180px;
+    }
+
+
+}
+
+
+
+@media (max-width: 456px) {
+    
+    .hero .content .div-text h1{
+        font-size: 16px;
+    }
+
     .hero .content .div-text p {
         font-size: 12px;
     }
     
     .hero .content .div-text .btn{
-        padding: 5px 10px;
-        font-size: 16px;
+        font-size: 10px;
+    }
+
+    .hero .content .div-img {
+        width: 180px;
     }
 
 
 }
+
