@@ -150,7 +150,7 @@
 }
 
 .hero .content .div-img{
-    width: 40%;
+    width: 50%;
 }
 
 .hero .content .div-img img{
@@ -260,7 +260,7 @@
     }
 }
 
-@media (max-width: 906px) {
+@media (max-width: 880px) {
     .hero nav .logo {
         font-size: 30px;
     }
@@ -273,52 +273,64 @@
         opacity: 0;
     }
 
+    .hero .content{
+        flex-direction: column;
+    }
+
+    .hero .content .div-text{
+        width: 50%;
+    }
+
     .hero .content .div-text h1{
         font-size: 30px;
+        color: #1e7f97;
     }
     
     .hero .content .div-text h4{
-        font-size: 14px;
+        font-size: 16px;
     }
     
     .hero .content .div-text p {
-        font-size: 12px;
+        font-size: 16px;
     }
     
     .hero .content .div-text .btn{
         padding: 5px 10px;
-        font-size: 14px;
+        font-size: 16px;
     }
     
     .soc-link a i{
         font-size: 18px;
     }
+
+    .hero .content .div-img{
+        width: 50%;
+        margin-top: 40px;
+    }
 }
 
 
-@media (max-width: 650px) {
+@media (max-width: 880px) {
     .hero nav .logo {
         font-size: 20px;
     }
 
     .hero .content .div-text h1{
-        font-size: 18px;
+        font-size: 20px;
     }
     
     .hero .content .div-text h4{
-        font-size: 10px;
+        font-size: 14px;
     }
     
     .hero .content .div-text p {
-        font-size: 8px;
+        font-size: 12px;
     }
     
     .hero .content .div-text .btn{
         padding: 5px 10px;
-        font-size: 10px;
+        font-size: 16px;
     }
-    
-    .soc-link a i{
-        font-size: 12px;
-    }
+
+
 }
